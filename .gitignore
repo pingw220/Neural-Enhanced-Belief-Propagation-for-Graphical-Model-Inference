@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual envs
+.venv/
+venv/
+
+# Outputs
+results/stage1/*
+results/stage2/*
+results/stage2_train/*
+results/stage2_eval/*
+results/stage2_train_overfit/*
+!results/stage1/.gitkeep
+!results/stage2/.gitkeep
+!results/stage2_train/.gitkeep
+!results/stage2_eval/.gitkeep

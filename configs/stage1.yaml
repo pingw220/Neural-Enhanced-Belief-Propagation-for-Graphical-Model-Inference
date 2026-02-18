@@ -1,0 +1,52 @@
+output_root: results/stage1
+runs:
+  - graph_type: chain
+    n: 6
+    beta: 0.8
+    h: 1.0
+    seed: 0
+    bias_node: 0
+    favor_value: 0
+    bp_max_iters: 50
+    bp_tol: 1.0e-9
+    bp_damping: 0.3
+  - graph_type: tree
+    n: 6
+    beta: 0.8
+    h: 1.0
+    seed: 0
+    bias_node: 0
+    favor_value: 0
+    bp_max_iters: 50
+    bp_tol: 1.0e-9
+    bp_damping: 0.3
+  - graph_type: loopy
+    n: 6
+    beta: 0.2
+    h: 1.0
+    seed: 0
+    bias_node: 0
+    favor_value: 0
+    bp_max_iters: 50
+    bp_tol: 1.0e-9
+    bp_damping: 0.3
+  - graph_type: loopy
+    n: 6
+    beta: 0.8
+    h: 1.0
+    seed: 0
+    bias_node: 0
+    favor_value: 0
+    bp_max_iters: 50
+    bp_tol: 1.0e-9
+    bp_damping: 0.3
+  - graph_type: loopy
+    n: 6
+    beta: 1.5
+    h: 1.0
+    seed: 0
+    bias_node: 0
+    favor_value: 0
+    bp_max_iters: 50
+    bp_tol: 1.0e-9
+    bp_damping: 0.3

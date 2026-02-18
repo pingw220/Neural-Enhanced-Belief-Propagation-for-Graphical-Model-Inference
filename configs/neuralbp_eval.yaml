@@ -1,0 +1,22 @@
+seed: 7
+device: cpu
+checkpoint: "results/stage2_train/latest/model_latest.pt"
+
+n: 6
+h: 1.0
+bias_node: 0
+favor_value: 0
+
+graph_types: [tree, loopy1, loopy2]
+beta_values: [0.2, 0.8, 1.5]
+num_test_graphs: 8
+
+bp_max_iters: 50
+bp_tol: 1.0e-9
+bp_damping: 0.3
+
+T: 20
+damping: 0.3
+hidden: 32
+
+output_root: results/stage2_eval
